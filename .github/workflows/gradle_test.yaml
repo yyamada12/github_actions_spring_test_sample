@@ -20,7 +20,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
-          distribution: 'corretto'
+          distribution: 'adopt'
           java-version: '17'
 
       - name: Run Tests
